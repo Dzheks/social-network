@@ -9,13 +9,32 @@ import "./profile.css"
 export default function Profile() {
   return (
     <>
-    <Navbar />
-    <div className="homeContainer">
+      <Navbar />
+      <div className="profile">
         <Sidebar />
-        <Feed />
-        <Rightbar />
-        
-    </div>
-</>
+        <div className="profileRight">
+          <div className="profileRightTop">
+            <div className="profileCover">
+              <img 
+              className="profileCoverImg" 
+              src="assets/post/3.jpeg"
+               />
+              <img 
+              className="profileUserImg" 
+              src="assets/person/yo.jpeg" 
+              />
+            </div>
+              <div className="profileInfo">
+                <h4 className="profileInfoName">Евгений Серов</h4>
+                <span className="profileInfoDesc">Привет, Друзья!</span>
+              </div>
+            </div>
+            <div className="profileRightBottom">
+              <Feed />
+              <Rightbar profile/>
+            </div>
+          </div>
+        </div>
+    </>
   )
 }
