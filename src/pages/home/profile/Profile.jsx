@@ -21,11 +21,11 @@ export default function Profile() {
                />
               <img 
               className="profileUserImg" 
-              src="assets/person/yo.jpeg" 
+              src="assets/person/8.jpeg" 
               />
             </div>
               <div className="profileInfo">
-                <h4 className="profileInfoName">Евгений Серов</h4>
+                <h4 className="profileInfoName">Ксения Андреевна</h4>
                 <span className="profileInfoDesc">Привет, Друзья!</span>
               </div>
             </div>
